@@ -241,7 +241,7 @@ def prediction_tab():
     st.markdown("---")
 
     # Bouton de prédiction
-    if st.button("🔮 PRÉDIRE LE PRIX", use_container_width=True, type="primary"):
+    if st.button("🔮 PRÉDIRE LE PRIX", width='stretch', type="primary"):
         # Validation des données
         if surface_area < 20:
             st.error("⚠️ La surface doit être d'au moins 20 m²")
@@ -393,33 +393,33 @@ def model_visualizations_tab():
     with viz_col1:
         st.markdown("### 🏙️ Statistiques par ville")
         try:
-            st.image("../visualizations/city_statistics.png", caption="Prix moyens par ville", use_container_width=True)
+            st.image("../visualizations/city_statistics.png", caption="Prix moyens par ville", width='stretch')
         except:
             st.info("📁 Visualisation non disponible")
 
         st.markdown("### 📈 Distribution des prix")
         try:
-            st.image("../visualizations/price_distribution.png", caption="Distribution des prix", use_container_width=True)
+            st.image("../visualizations/price_distribution.png", caption="Distribution des prix", width='stretch')
         except:
             st.info("📁 Visualisation non disponible")
 
     with viz_col2:
         st.markdown("### 🔗 Corrélations")
         try:
-            st.image("../visualizations/correlation_matrix.png", caption="Matrice de corrélation", use_container_width=True)
+            st.image("../visualizations/correlation_matrix.png", caption="Matrice de corrélation", width='stretch')
         except:
             st.info("📁 Visualisation non disponible")
 
         st.markdown("### 🧹 Gestion des outliers")
         try:
-            st.image("../visualizations/outliers_before_after.png", caption="Avant/après traitement des outliers", use_container_width=True)
+            st.image("../visualizations/outliers_before_after.png", caption="Avant/après traitement des outliers", width='stretch')
         except:
             st.info("📁 Visualisation non disponible")
 
     # Comparaison des modèles
     st.markdown("### 🏆 Comparaison des modèles")
     try:
-        st.image("../visualizations/model_comparison.png", caption="Performance des différents algorithmes", use_container_width=True)
+        st.image("../visualizations/model_comparison.png", caption="Performance des différents algorithmes", width='stretch')
     except:
         st.info("📁 Visualisation non disponible")
 

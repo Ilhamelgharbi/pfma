@@ -52,7 +52,7 @@ ENV UV_HTTP_TIMEOUT=6000
 RUN uv sync
 
 # Run the training script to generate models and visualizations
-# RUN uv run python notebooks/script.py
+RUN uv run python notebooks/script.py
 
 # Expose both ports (7860 is required for HF Spaces)
 EXPOSE 7860 8000

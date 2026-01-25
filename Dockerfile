@@ -62,4 +62,4 @@ HEALTHCHECK CMD curl --fail http://localhost:7860/_stcore/health || exit 1
 # Run supervisord to manage both services
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 # Run the training script to generate models and visualizations
-RUN uv run python notebooks/script.py
+RUN cd notebooks && uv run python script.py

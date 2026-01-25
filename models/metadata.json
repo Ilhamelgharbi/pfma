@@ -1,0 +1,332 @@
+{
+  "version": "1.0",
+  "created_at": "2026-01-25T11:24:16.469071",
+  "best_model": "Gradient Boosting",
+  "model_performance": {
+    "test_r2": 0.82688608135653,
+    "mae": 185807.11757249825,
+    "rmse": 273802.30346166756,
+    "mape": 18.13241788171655
+  },
+  "feature_names": [
+    "nb_baths",
+    "surface_area",
+    "Ascenseur",
+    "Balcon",
+    "Chauffage",
+    "Climatisation",
+    "Concierge",
+    "Cuisine Équipée",
+    "Duplex",
+    "Meublé",
+    "Parking",
+    "Sécurité",
+    "Terrasse",
+    "total_rooms",
+    "bath_room_ratio",
+    "surface_per_room",
+    "equipment_score",
+    "city_Agadir",
+    "city_Bouskoura",
+    "city_Casablanca",
+    "city_El Jadida",
+    "city_Fès",
+    "city_Kénitra",
+    "city_Marrakech",
+    "city_Meknès",
+    "city_Mohammedia",
+    "city_Rabat",
+    "city_Salé",
+    "city_Tanger",
+    "city_Temara",
+    "city_other"
+  ],
+  "numeric_features": [
+    "nb_baths",
+    "surface_area",
+    "total_rooms",
+    "bath_room_ratio",
+    "surface_per_room",
+    "equipment_score"
+  ],
+  "equipment_features": [
+    "Ascenseur",
+    "Balcon",
+    "Chauffage",
+    "Climatisation",
+    "Concierge",
+    "Cuisine Équipée",
+    "Duplex",
+    "Meublé",
+    "Parking",
+    "Sécurité",
+    "Terrasse"
+  ],
+  "city_features": [
+    "city_Agadir",
+    "city_Bouskoura",
+    "city_Casablanca",
+    "city_El Jadida",
+    "city_Fès",
+    "city_Kénitra",
+    "city_Marrakech",
+    "city_Meknès",
+    "city_Mohammedia",
+    "city_Rabat",
+    "city_Salé",
+    "city_Tanger",
+    "city_Temara",
+    "city_other"
+  ],
+  "available_cities": [
+    "Agadir",
+    "Asilah",
+    "Berrechid",
+    "Bouskoura",
+    "Bouznika",
+    "Béni Mellal",
+    "Casablanca",
+    "Dar Bouazza",
+    "Dcheïra El Jihadia",
+    "Deroua",
+    "El Jadida",
+    "El Mansouria",
+    "Essaouira",
+    "Fnideq",
+    "Fès",
+    "Had Soualem",
+    "Kénitra",
+    "Marrakech",
+    "Martil",
+    "Mdiq",
+    "Meknès",
+    "Mohammedia",
+    "Nouaceur",
+    "Oujda",
+    "Rabat",
+    "Safi",
+    "Saidia",
+    "Salé",
+    "Sidi Rahal",
+    "Skhirat",
+    "Tamesna",
+    "Tanger",
+    "Temara",
+    "Tit Mellil",
+    "Tétouan"
+  ],
+  "city_statistics": {
+    "Agadir": {
+      "median_price": 850000.0,
+      "mean_price": 893268.9777777778,
+      "median_surface": 82.0,
+      "count": 45
+    },
+    "Asilah": {
+      "median_price": 730000.0,
+      "mean_price": 742500.0,
+      "median_surface": 67.5,
+      "count": 4
+    },
+    "Berrechid": {
+      "median_price": 850000.0,
+      "mean_price": 828000.0,
+      "median_surface": 94.0,
+      "count": 5
+    },
+    "Bouskoura": {
+      "median_price": 800000.0,
+      "mean_price": 836913.6363636364,
+      "median_surface": 82.5,
+      "count": 22
+    },
+    "Bouznika": {
+      "median_price": 625000.0,
+      "mean_price": 637500.0,
+      "median_surface": 85.5,
+      "count": 8
+    },
+    "Béni Mellal": {
+      "median_price": 680000.0,
+      "mean_price": 680000.0,
+      "median_surface": 113.0,
+      "count": 2
+    },
+    "Casablanca": {
+      "median_price": 1000000.0,
+      "mean_price": 1184074.6422535211,
+      "median_surface": 93.0,
+      "count": 355
+    },
+    "Dar Bouazza": {
+      "median_price": 1200000.0,
+      "mean_price": 1151250.0,
+      "median_surface": 105.5,
+      "count": 8
+    },
+    "Dcheïra El Jihadia": {
+      "median_price": 745860.0,
+      "mean_price": 745860.0,
+      "median_surface": 94.5,
+      "count": 2
+    },
+    "Deroua": {
+      "median_price": 415000.0,
+      "mean_price": 415000.0,
+      "median_surface": 83.0,
+      "count": 2
+    },
+    "El Jadida": {
+      "median_price": 630000.0,
+      "mean_price": 663181.8181818182,
+      "median_surface": 88.0,
+      "count": 22
+    },
+    "El Mansouria": {
+      "median_price": 1375000.0,
+      "mean_price": 1375000.0,
+      "median_surface": 104.5,
+      "count": 2
+    },
+    "Essaouira": {
+      "median_price": 355000.0,
+      "mean_price": 355000.0,
+      "median_surface": 55.5,
+      "count": 2
+    },
+    "Fnideq": {
+      "median_price": 1275000.0,
+      "mean_price": 1275000.0,
+      "median_surface": 104.0,
+      "count": 2
+    },
+    "Fès": {
+      "median_price": 690000.0,
+      "mean_price": 678750.0,
+      "median_surface": 120.5,
+      "count": 24
+    },
+    "Had Soualem": {
+      "median_price": 620000.0,
+      "mean_price": 646666.6666666666,
+      "median_surface": 120.0,
+      "count": 3
+    },
+    "Kénitra": {
+      "median_price": 699999.5,
+      "mean_price": 733729.125,
+      "median_surface": 91.5,
+      "count": 48
+    },
+    "Marrakech": {
+      "median_price": 850000.0,
+      "mean_price": 901439.3939393939,
+      "median_surface": 81.0,
+      "count": 99
+    },
+    "Martil": {
+      "median_price": 565000.0,
+      "mean_price": 662000.0,
+      "median_surface": 65.5,
+      "count": 10
+    },
+    "Mdiq": {
+      "median_price": 750000.0,
+      "mean_price": 750000.0,
+      "median_surface": 99.5,
+      "count": 2
+    },
+    "Meknès": {
+      "median_price": 405000.0,
+      "mean_price": 560454.5454545454,
+      "median_surface": 110.0,
+      "count": 11
+    },
+    "Mohammedia": {
+      "median_price": 760000.0,
+      "mean_price": 872000.0,
+      "median_surface": 86.0,
+      "count": 25
+    },
+    "Nouaceur": {
+      "median_price": 500000.0,
+      "mean_price": 609066.6666666666,
+      "median_surface": 69.0,
+      "count": 3
+    },
+    "Oujda": {
+      "median_price": 480000.0,
+      "mean_price": 418000.0,
+      "median_surface": 90.0,
+      "count": 5
+    },
+    "Rabat": {
+      "median_price": 1715000.0,
+      "mean_price": 1840166.6333333333,
+      "median_surface": 113.0,
+      "count": 60
+    },
+    "Safi": {
+      "median_price": 320000.0,
+      "mean_price": 320000.0,
+      "median_surface": 77.0,
+      "count": 2
+    },
+    "Saidia": {
+      "median_price": 490000.0,
+      "mean_price": 493333.3333333333,
+      "median_surface": 65.0,
+      "count": 3
+    },
+    "Salé": {
+      "median_price": 740000.0,
+      "mean_price": 836000.0,
+      "median_surface": 80.0,
+      "count": 23
+    },
+    "Sidi Rahal": {
+      "median_price": 560000.0,
+      "mean_price": 706666.6666666666,
+      "median_surface": 81.0,
+      "count": 6
+    },
+    "Skhirat": {
+      "median_price": 850000.0,
+      "mean_price": 850000.0,
+      "median_surface": 91.5,
+      "count": 2
+    },
+    "Tamesna": {
+      "median_price": 517500.0,
+      "mean_price": 541250.0,
+      "median_surface": 70.0,
+      "count": 4
+    },
+    "Tanger": {
+      "median_price": 770000.0,
+      "mean_price": 892294.1176470588,
+      "median_surface": 82.0,
+      "count": 51
+    },
+    "Temara": {
+      "median_price": 1050000.0,
+      "mean_price": 1050489.7959183673,
+      "median_surface": 89.0,
+      "count": 49
+    },
+    "Tit Mellil": {
+      "median_price": 350000.0,
+      "mean_price": 350000.0,
+      "median_surface": 78.0,
+      "count": 2
+    },
+    "Tétouan": {
+      "median_price": 650000.0,
+      "mean_price": 685000.0,
+      "median_surface": 83.0,
+      "count": 8
+    }
+  },
+  "global_median_price": 890000.0,
+  "global_mean_price": 1031894.8078175896
+}

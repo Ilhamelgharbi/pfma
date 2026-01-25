@@ -51,8 +51,7 @@ ENV UV_HTTP_TIMEOUT=6000
 
 RUN uv sync
 
-# Run the training script to generate models and visualizations
-RUN uv run python notebooks/script.py
+
 
 # Expose both ports (7860 is required for HF Spaces)
 EXPOSE 7860 8000
@@ -62,3 +61,5 @@ HEALTHCHECK CMD curl --fail http://localhost:7860/_stcore/health || exit 1
 
 # Run supervisord to manage both services
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
+# Run the training script to generate models and visualizations
+RUN uv run python notebooks/script.py

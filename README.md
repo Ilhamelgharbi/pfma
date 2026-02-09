@@ -1,4 +1,4 @@
-# 🏠 SalesHouses - Moroccan Real Estate Price Prediction
+# 🏠 AvitoPricePredictor - Moroccan Real Estate Price Prediction
 
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-red.svg)](https://streamlit.io/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.2-orange.svg)](https://scikit-learn.org/)
 
-> **SalesHouses** is an AI-powered real estate price prediction platform for the Moroccan market, combining machine learning, modern web technologies, and comprehensive data analysis to provide accurate apartment price estimates.
+> **AvitoPricePredictor** is an AI-powered real estate price prediction platform for the Moroccan market, combining machine learning, modern web technologies, and comprehensive data analysis to provide accurate apartment price estimates.
 
 ## 🌟 Features
 
